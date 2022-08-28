@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1078816745834",
+    "project_id": "khadamat-4379e",
+    "storage_bucket": "khadamat-4379e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078816745834:android:c695054f68162eaff2dd13",
+        "android_client_info": {
+          "package_name": "com.khadamat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078816745834-cq7g8t7h0e8jetg2774lnpismvvomh1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1R3epfKI8SV05Zw_1WRtjnCaDDCj7LAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078816745834-cq7g8t7h0e8jetg2774lnpismvvomh1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078816745834:android:2477ba59a2ed0b87f2dd13",
+        "android_client_info": {
+          "package_name": "com.khadamatemployee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078816745834-cq7g8t7h0e8jetg2774lnpismvvomh1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1R3epfKI8SV05Zw_1WRtjnCaDDCj7LAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078816745834-cq7g8t7h0e8jetg2774lnpismvvomh1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

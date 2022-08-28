@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_request"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/txt_name_item_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:layout_toEndOf="@id/img_item_request"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            />
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/check_box_accept_item_request"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/txt_name_item_request"-->
+<!--            android:text="Accept to the request"-->
+<!--            android:textSize="@dimen/_15ssp"-->
+<!--            android:layout_margin="@dimen/_5sdp"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_done_item_request"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/check_box_accept_item_request"-->
+<!--            app:backgroundTint="@null"-->
+<!--            android:background="@drawable/button_create_account"-->
+<!--            android:text="Done"-->
+<!--            android:textSize="@dimen/_13ssp"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="@dimen/_15sdp"-->
+<!--            android:layout_marginBottom="@dimen/_5sdp"-->
+<!--            />-->
+
+    </RelativeLayout>
+
+</layout>

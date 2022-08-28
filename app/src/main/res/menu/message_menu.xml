@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/send_message_menu"
+        android:title="Send Message"
+        />
+
+    <item
+        android:id="@+id/send_image_menu"
+        android:title="Send Image"
+        />
+
+    <item
+        android:id="@+id/send_video_menu"
+        android:title="Send Video"
+        />
+
+</menu>

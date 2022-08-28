@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_review"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+        <LinearLayout
+            android:id="@+id/linear_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/img_item_review"
+            android:layout_margin="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:id="@+id/txt_name_item_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/_3sdp"
+                />
+
+            <TextView
+                android:id="@+id/txt_location_item_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_13ssp"
+                android:textColor="@color/black"
+                android:layout_margin="@dimen/_3sdp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_opinion_item_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/img_item_review"
+            android:layout_centerHorizontal="true"
+            />
+
+        <LinearLayout
+            android:id="@+id/linear_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/txt_opinion_item_review"
+            android:layout_margin="@dimen/_5sdp"
+            >
+
+            <ImageView
+                android:id="@+id/img_like_item_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/like"
+                android:layout_margin="@dimen/_3sdp"
+                />
+
+            <TextView
+                android:id="@+id/txt_number_like_item_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_13ssp"
+                android:textColor="@color/black"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_dislike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/txt_opinion_item_review"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_centerInParent="true"
+            >
+
+            <ImageView
+                android:id="@+id/img_dislike_item_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/like"
+                android:rotationX="180"
+                android:layout_margin="@dimen/_3sdp"
+                />
+
+            <TextView
+                android:id="@+id/txt_number_dislike_item_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_13ssp"
+                android:textColor="@color/black"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_comment_item_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reply"
+            android:layout_below="@+id/txt_opinion_item_review"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_alignParentEnd="true"
+            />
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/linear_comment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_margin="@dimen/_5sdp"-->
+<!--            android:layout_below="@+id/img_comment_item_review"-->
+<!--            android:visibility="gone"-->
+<!--            >-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/edit_comment_item_review"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:hint="إفاضة تعليق"-->
+<!--                android:textSize="@dimen/_13ssp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textColorHint="#0175BE"-->
+<!--                android:layout_margin="@dimen/_3sdp"-->
+<!--                android:padding="@dimen/_10sdp"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_send_comment_item_review"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/send"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="@dimen/_3sdp"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+    </RelativeLayout>
+</layout>

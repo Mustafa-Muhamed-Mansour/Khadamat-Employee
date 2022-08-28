@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_service"
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="@dimen/_160sdp"
+            android:src="@drawable/add_photo"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/title_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:textColorHint="@color/black"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/img_service"
+            >
+
+            <EditText
+                android:id="@+id/edit_title_service"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Title Service"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="@color/black"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_create_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:background="@drawable/button_create_account"
+            android:layout_below="@+id/title_service"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:text="Create service"
+            android:textSize="@dimen/_15ssp"
+            android:textAllCaps="false"
+            android:padding="@dimen/_10sdp"
+            />
+
+        <ProgressBar
+            android:id="@+id/loading_create_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_service"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+</layout>

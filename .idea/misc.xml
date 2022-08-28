@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/drawable-hdpi/call.xml" value="0.113" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/drawable/ic_button_exit.xml" value="0.1085" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/drawable/ic_home.xml" value="0.1085" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/drawable/ic_job.xml" value="0.1085" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/drawable/ic_loader_image.xml" value="0.1085" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/drawable/ic_no_photo.xml" value="0.1085" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/drawable/ic_reviews.xml" value="0.113" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/add_work_fragment.xml" value="0.176" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/bottom_sheet_animtaion.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/bottom_sheet_forget_password.xml" value="0.176" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/bottom_sheet_job.xml" value="0.253125" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/bottom_sheet_request.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/bottom_sheet_service.xml" value="0.176" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/fragment_forget_password.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/fragment_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/home_fragment.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/item_request.xml" value="0.176" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/item_review.xml" value="0.176" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/item_work.xml" value="0.11302083333333333" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/login_fragment.xml" value="0.15833333333333333" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/profile_fragment.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/register_fragment.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/request_fragment.xml" value="0.176" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/review_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/splash_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/user_details_fragment.xml" value="0.152" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/layout/user_home_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/menu/delete_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/menu/men.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/KhadamatEmployee/app/src/main/res/menu/message_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
