@@ -1,10 +1,6 @@
-# It allows the user to book with more than one employee in various fields on any day the user wants and at any hour. The user also wants to know if the reservation request has been accepted or rejected with the presence of the reason for rejection, as well as knowing the opinions of the users of the employee who wants to book with him, whether positive or negative, and he can add his opinion on Employee X.
+# Khadamat-Employee
 
-
-
-## Khadamat-Employee
-
-### Screen shot
+## Screen shot
 
 <img src = "https://user-images.githubusercontent.com/53982895/187052313-e184edee-4dd2-4f7c-8756-8900e2777a62.png" width = "200" height = "400"> <img src = "https://user-images.githubusercontent.com/53982895/187052319-949a5876-24e5-4971-8e5d-0c779a7e6336.png" width = "200" height = "400">
 <img src = "https://user-images.githubusercontent.com/53982895/187052320-4df9f13f-6f23-4a8a-a6ae-f44a68d14514.png" width = "200" height = "400"> <img src = "https://user-images.githubusercontent.com/53982895/187052322-45e754a9-1969-4044-822d-c0090f83cf2f.png" width = "200" height = "400">
