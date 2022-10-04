@@ -1,6 +1,4 @@
-# Khadamat-Employee
-
-It allows the employee to add his works and also know his requests as well as the opinions of customers.
+# It allows the employee to add his works and also know his requests as well as the opinions of customers.
 
 ## Screen shot
 
