@@ -1,5 +1,7 @@
 # Khadamat-Employee
 
+It allows the employee to add his works and also know his requests as well as the opinions of customers.
+
 ## Screen shot
 
 <img src = "https://user-images.githubusercontent.com/53982895/187052313-e184edee-4dd2-4f7c-8756-8900e2777a62.png" width = "200" height = "400"> <img src = "https://user-images.githubusercontent.com/53982895/187052319-949a5876-24e5-4971-8e5d-0c779a7e6336.png" width = "200" height = "400">
@@ -14,5 +16,7 @@
 <img src = "https://user-images.githubusercontent.com/53982895/190032415-21eebc4e-4c98-425f-9b73-228728584d79.png" width = "200" height = "400"> <img src = "https://user-images.githubusercontent.com/53982895/190032713-e0ee3ae8-d838-41c3-a5e2-cb9b84de12d3.png" width = "200" height = "400">
 <img src = "https://user-images.githubusercontent.com/53982895/190032783-c7b29105-3042-4f04-ac43-27fca7099a7b.png" width = "200" height = "400"> <img src = "https://user-images.githubusercontent.com/53982895/187052476-eb9aa87f-8a4d-4a6e-bade-7200c9f9ec95.png" width = "200" height = "400">
 <img src = "https://user-images.githubusercontent.com/53982895/190032646-45e089cc-76f9-44cb-a3c2-5a67476074ec.png" width = "200" height = "400">
+
+
 
 
